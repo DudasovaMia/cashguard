@@ -1,5 +1,5 @@
 import type { FC, JSX } from "react";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Provider } from "./context";
 
 type Highlight = {

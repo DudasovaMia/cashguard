@@ -1,13 +1,6 @@
 "use client";
 import { useState } from "react";
 
-interface Message {
-  id: string;
-  body: any;
-  created: string;
-  status: string;
-}
-
 export default function Home() {
   const [value, setValue] = useState("");
   const [status, setStatus] = useState("");
